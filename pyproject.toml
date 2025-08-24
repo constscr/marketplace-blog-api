@@ -28,8 +28,8 @@ __pycache__)
 line-length = 88
 target-version = "py313"
 exclude = [".venv", "alembic", "__pycache__"]
-select = ["E", "F", "I", "B", "UP", "C4", "PL"]
-ignore = ["E203", "E266", "E501"]
+lint.select = ["E", "F", "I", "B", "UP", "C4", "PL"]
+lint.ignore = ["E203", "E266", "E501"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
